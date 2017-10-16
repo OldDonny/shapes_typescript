@@ -1,0 +1,37 @@
+.input{
+    border: 1px solid black;
+    position: relative;
+    display: inline-block;
+    padding: 1em 2em;
+    margin-top: 1em;
+}
+
+.panel{
+    position: relative;
+   
+}
+.display{
+    margin-top:1em;
+    p{
+        margin-top:4px;
+    }
+    .draw_board{
+        float: right;
+       max-height: 600px;
+       min-height: 600px;
+       min-width: 600px;
+       max-width:600px;
+        background-color: salmon;
+    }
+    .info{
+        height: 600px;
+        width: 200px;
+        border: 1px solid black;
+        background-color: silver;
+        
+    }
+}
+  
+    
+
+
