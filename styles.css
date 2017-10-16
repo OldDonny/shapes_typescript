@@ -9,11 +9,13 @@
   position: relative; }
 
 .display {
-  margin-top: 1em; }
+  margin-top: 1em;
+  position: relative; }
   .display p {
     margin-top: 4px; }
   .display .draw_board {
     float: right;
+    position: relative;
     max-height: 600px;
     min-height: 600px;
     min-width: 600px;
@@ -24,5 +26,23 @@
     width: 200px;
     border: 1px solid black;
     background-color: silver; }
+
+#circle {
+  background: red;
+  -moz-border-radius: 50px;
+  -webkit-border-radius: 50px;
+  border-radius: 50px; }
+
+#rectangle {
+  background: red; }
+
+#square {
+  background: green; }
+
+#triangle {
+  width: 0;
+  height: 0;
+  border-top: 100px solid red;
+  border-left: 100px solid transparent; }
 
 /*# sourceMappingURL=styles.css.map */

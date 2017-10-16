@@ -15,95 +15,97 @@
     <div class="row">
         <div class="container input col-sm-2">
             <label for="form">Rectangle</label>
-            <form>
-                <div class="form-group row">
-                   
-                    <div class="col-sm-10">
-                        <input type="Height" class="form-control" id="rectangle_height" placeholder="Height">
-                    </div>
-                </div>
-                <div class="form-group row">
-                    
-                    <div class="col-sm-10">
-                        <input type="Width" class="form-control" id="rectangle_width" placeholder="Width">
-                    </div>
-                </div>
 
-                <div class="form-group row">
-                    <div class=" col-sm-10">
-                        <button type="Insert"id="rectangle_btn" class="btn btn-primary">Insert</button>
-                    </div>
-                </div>
-            </form>
-        </div>
-        <div class="container input col-sm-2" id="square">
-                <label for="form">Square</label>
-            <form>
-                <div class="form-group row">
-                   
-                    <div class="col-sm-10">
-                        <input type="Side Length" class="form-control" id="Square_length" placeholder="Side Length">
-                    </div>
-                </div>
+            <div class="form-group row">
 
-                <div class="form-group row">
-                    <div class=" col-sm-10">
-                        <button type="Insert"id="square_btn" class="btn btn-primary">Insert</button>
-                    </div>
+                <div class="col-sm-10">
+                    <input type="number" class="form-control" id="rectangle_height" placeholder="Height">
                 </div>
-            </form>
+            </div>
+            <div class="form-group row">
+
+                <div class="col-sm-10">
+                    <input type="number" class="form-control" id="rectangle_width" placeholder="Width">
+                </div>
+            </div>
+
+            <div class="form-group row">
+                <div class=" col-sm-10">
+                    <button type="Insert" id="rectangle_btn" class="btn btn-primary">Insert</button>
+                </div>
+            </div>
+
         </div>
         <div class="container input col-sm-2">
-                <label for="form">circle</label>
-            <form>
-                <div class="form-group row">
-                    
-                    <div class="col-sm-10">
-                        <input type="Radius" class="form-control" id="circle_radius" placeholder="Radius">
-                    </div>
+            <label for="form">Square</label>
+
+            <div class="form-group row">
+
+                <div class="col-sm-10">
+                    <input value="" type="number" class="form-control" id="Square_length" placeholder="Side Length">
                 </div>
-                <div class="form-group row">
-                    <div class=" col-sm-10">
-                        <button type="Insert" id="circle_btn" class="btn btn-primary">Insert</button>
-                    </div>
+            </div>
+
+            <div class="form-group row">
+                <div class=" col-sm-10">
+                    <button type="Insert" id="square_btn" class="btn btn-primary">Insert</button>
                 </div>
-            </form>
+            </div>
+
         </div>
         <div class="container input col-sm-2">
-                <label for="form">Isoceles Right Triangle</label>
-            <form>
-                <div class="form-group row">
-                  
-                    <div class="col-sm-10">
-                        <input type="height" class="form-control" id="isoceles_height" placeholder="Height">
-                    </div>
-                </div>
+            <label for="form">circle</label>
 
-                <div class="form-group row">
-                    <div class=" col-sm-10">
-                        <button type="insert" id="triangle_btn" class="btn btn-primary">Insert</button>
-                    </div>
+            <div class="form-group row">
+
+                <div class="col-sm-10">
+                    <input type="number" class="form-control" id="circle_radius" placeholder="Radius">
                 </div>
-            </form>
+            </div>
+            <div class="form-group row">
+                <div class=" col-sm-10">
+                    <button type="Insert" id="circle_btn" class="btn btn-primary">Insert</button>
+                </div>
+            </div>
+
+        </div>
+        <div class="container input col-sm-2">
+            <label for="form">Isoceles Right Triangle</label>
+
+            <div class="form-group row">
+
+                <div class="col-sm-10">
+                    <input type="number" class="form-control" id="isoceles_height" placeholder="Height">
+                </div>
+            </div>
+
+            <div class="form-group row">
+                <div class=" col-sm-10">
+                    <button class="btn btn-primary" id="triangle_btn">Insert</button>
+                </div>
+            </div>
+
         </div>
     </div>
 
 
-     <div class="row display">
-                <div class="info col-sm-2 offset-sm-2">
-                    <p id="shapename"></p>
-                    <p id="width"></p>
-                    <p id="height"></p>
-                    <p id="radius"></p>
-                    <p id="area"></p>
-                    <p id="perimeter"></p>
-                </div>
-                <div class=" draw_board col-sm-6 "></div>
-     </div>
-   
- 
+    <div id="display" class="row display">
+        <div id="info" class="info col-sm-2 offset-sm-2">
+            
+                <p id="shapename"></p>
+                <p id="width"></p>
+                <p id="height"></p>
+                <p id="radius"></p>
+                <p id="area"></p>
+                <p id="perimeter"></p>
+            
+        </div>
+        <div id="draw_board" class=" draw_board col-sm-6 "></div>
+    </div>
 
-        
+
+
+
 
     <script src="script.js"></script>
 </body>

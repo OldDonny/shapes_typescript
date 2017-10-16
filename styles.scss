@@ -12,11 +12,13 @@
 }
 .display{
     margin-top:1em;
+    position: relative;
     p{
         margin-top:4px;
     }
     .draw_board{
         float: right;
+        position: relative;
        max-height: 600px;
        min-height: 600px;
        min-width: 600px;
@@ -30,6 +32,32 @@
         background-color: silver;
         
     }
+}
+
+#circle {
+	background: red;
+	-moz-border-radius: 50px;
+	-webkit-border-radius: 50px;
+	border-radius: 50px;
+}
+
+#rectangle {
+	
+	background: red;
+}
+
+
+#square {
+	
+	background: green;
+}
+
+#triangle{
+	width: 0;
+	height: 0;
+	border-top: 100px solid red;
+	border-left: 100px solid transparent;
+
 }
   
     
